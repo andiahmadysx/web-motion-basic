@@ -114,12 +114,13 @@
             white-space: nowrap;
             padding: .5rem;
             visibility: hidden;
-            transition: opacity .3s ease-in-out;
+            transition: opacity .3s ease-in-out, left .3s ease-in-out;
         }
 
         .has-submenu:hover > ul {
             visibility: visible;
             opacity: 1;
+            left: 0;
         }
 
         .has-submenu ul a:after {
